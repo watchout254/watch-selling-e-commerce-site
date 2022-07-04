@@ -29,7 +29,7 @@ h2 {
 }
 
 h4 {
-    font-size: 20px;
+    font-size: 5px;
     color: yellow;
     font-weight: bolder;
     font-style: oblique;
@@ -69,7 +69,11 @@ body{
     padding: 20px 80px;
     background-color: #E3E6F3;
     box-shadow: 0 5px 15px rgb(0, 0, 0, 0.06);
-    
+    z-index:999;
+    position: sticky;
+    top: 0;
+    left: 0;
+
 }
 
 #navbar {
@@ -146,3 +150,130 @@ button {
     font-weight: bolder;
 
 }
+
+#feature {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#feature .fe-box {
+    width: 180px;
+    text-align: center;
+    padding: 25px 20px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+    border: 1px solid gray;
+    border-radius: 4px;
+    margin: 15px 0;
+}
+
+#feature .fe-box:hover {
+    box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.1);
+}
+
+#feature .fe-box img {
+    margin-bottom: 10px;
+}
+
+#feature .fe-box h6 {
+    display: inline-block;
+    padding: 9px 8px 6px 8px;
+    line-height: 1;
+    border-radius: 4px;
+    color:black;
+    background-color: mistyrose;
+    font-weight: bold;
+}
+
+#feature .fe-box:nth-child(2) h6 {
+    background-color: lightblue;
+}
+
+#feature .fe-box:nth-child(3) h6 {
+    background-color:deeppink;
+}
+
+#feature .fe-box:nth-child(4) h6 {
+    background-color:greenyellow;
+}
+
+#feature .fe-box:nth-child(5) h6 {
+    background-color:khaki;
+}
+
+#feature .fe-box:nth-child(6) h6 {
+    background-color:peru;
+}
+
+
+img {
+    clip-path:circle();
+}
+
+#product1 .pro-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+
+#product1 {
+    text-align: center;
+}
+
+#product1 .pro {
+    width: 20%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid gainsboro;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    margin: 15px 0;
+    transition: 0.02ms ease;
+    position: relative;
+}
+
+#product1 .pro .img1 {
+    width: 60%;
+    border-radius: 20px;
+}
+
+
+#product1 .pro:hover {
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+}
+
+#product1 .pro .des {
+    text-align: start;
+    padding: 10px 0;
+}
+
+#product1 .pro .des span {
+    color:darkred;
+    font-size: 15px;
+}
+
+#product1 .pro .des h5 {
+    padding-top: 7px;
+    color: black;
+    font-size: 14px;
+}
+
+#product1 .pro .des .star {
+    color: gold;
+}
+
+#product1 .pro .des i {
+    font-size: 10px;
+}
+
+#product1 .pro .des h4 {
+    padding: 7px;
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+    color:darkseagreen;
+}
+
