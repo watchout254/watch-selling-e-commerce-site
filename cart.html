@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./IMAGES/mziza.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./CSS/cart.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" integrity="sha512-EZLkOqwILORob+p0BXZc+Vm3RgJBOe1Iq/0fiI7r/wJgzOFZMlsqTa29UEl6v6U6gsV4uIpsNZoV32YZqrCRCQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/1cfb698203.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"></script>
+    <title>F-WATCHES | CART </title>
+</head>
+<body>
+    <section id="header"> <a href="index.html"> <img src="./IMAGES/vum.png" class="logo" alt="" width="50px">  </a> 
+        <div>
+            <ul id="navbar">
+                <li><a  href="index.html">HOME</a></li>
+                <li><a href="shop.html">SHOP</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li id="lg-bag"><a class="active" href="cart.html"> <img src="./IMAGES/cart.png" alt="" width="40px" height="40%" class="cart"> </a></li>
+                <a href="#" id="close"><img src="./IMAGES/tinga.png" alt="" width="15px"></a>
+            </ul>
+        </div>
+
+        <div id="mobile">
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <section id="page-header" class="blog-header">
+        <h2>#Cart</h2> <br>  
+        <p>Save 30% as you add a coupon</p> <br>
+    </section>
+
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>REMOVE</td>
+                    <td>IMAGE</td>
+                    <td>PRODUCT</td>
+                    <td>PRICE</td>
+                    <td>QUANTITY</td>
+                    <td>SUBTOTAL</td>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="./IMAGES/s1.jpg" alt="" width="60px"></td>
+                    <td>Smart watch</td>
+                    <td>Ksh 10,500/=</td>
+                    <td><input type="number" name="quanitiy" id="quantity" value="1"></td>
+                    <td>Ksh 10,500/=</td>
+                </tr>
+
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="./IMAGES/des5.jpg" alt="" width="60px"></td>
+                    <td>Graffiti</td>
+                    <td>Ksh 2,000/=</td>
+                    <td><input type="number" name="quanitiy" id="quantity" value="1"></td>
+                    <td>Ksh 2,000/=</td>
+                </tr>
+
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="./IMAGES/des10.jpg" alt="" width="60px"></td>
+                    <td>Women Strap</td>
+                    <td>Ksh 1,500/=</td>
+                    <td><input type="number" name="quanitiy" id="quantity" value="1"></td>
+                    <td>Ksh 1,500/=</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="cart-add" class="section-p1">
+        <div class="coupon">
+            <h3>Apply Coupon</h3>
+            <div>
+            <input type="text" name="coupon" placeholder="Enter your coupon">
+            <button type="submit" class="normal">Apply</button>
+            </div>
+        </div>
+
+        <div id="subtotal">
+            <h3>Cart totals</h3>
+            <table>
+                <tr>
+                    <td>Cart Subtotal</td>
+                    <td>Ksh 10,500/=</td>
+                </tr>
+
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td> <strong>Ksh 10,500/=</strong></td>
+                </tr>
+            </table>
+        </div>
+
+    </section>
+    <footer class="section-p1">
+        
+        <div class="col">
+            <img src="./IMAGES/vum.png" class="logo" alt="" width="50px">
+            <h4>Contact</h4>
+            <p><b>Address:</b>Nairobi CDB 00100</p>
+            <p> <b>Phone:</b>+254790509998</p>
+            <p><b>Hours:</b>8am-6pm Mon-Sat</p>
+
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About us</a>
+            <a href="#">Delivery information</a>
+            <a href="#">Privacy policy</a>
+            <a href="#">Terms & condition</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign in</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track my order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+          <p>From appstore or google play</p>
+          <div class="row">
+            <img src="./IMAGES/app.png" alt="" width="150" height="60">
+            <img src="./IMAGES/play.png" alt="" width="150" height="60">
+          </div>
+          <p>Secured payment Gateways</p>
+          <img src="./IMAGES/v1.jpg" alt="" width="80" height="50">
+          <img src="./IMAGES/mc.png" alt="" width="80" height="50">
+          <img src="" alt="">
+        </div>
+
+        <div class="copyright">
+            &copy;2022, Daniel Mukenya &trade;,All rights reserved.
+        </div>
+        <script src="blog.js"></script>
+    </footer>
+</body>
+</html>
