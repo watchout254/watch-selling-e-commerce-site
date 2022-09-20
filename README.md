@@ -6,7 +6,7 @@ An E-commerce website still developing but in the final touches!!
 
 ###  Landing Page
 ![](markdown_images/home.PNG) 
-Tthis link](index.php)
+[this link](index.php)
 
 ------------------------------------------
 ### Shop page
